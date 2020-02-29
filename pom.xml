@@ -98,6 +98,16 @@
             </dependency>
             <!-- Pure Java dependencies -->
             <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.12</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-jdk14</artifactId>
+                <version>1.7.12</version>
+            </dependency>          
+            <dependency>
                 <groupId>com.github.lafa.logfast</groupId>
                 <artifactId>logfast.core</artifactId>
                 <version>1.0.6</version>
@@ -535,7 +545,7 @@
                 <configuration>
                     <archive>
                     <manifest>
-                        <mainClass>com.yahoo.tagchowder.CommandLine</mainClass>
+                        <mainClass>com.yahoo.tagchowder.Parser</mainClass>
                     </manifest>
                     </archive>
                     <descriptorRefs>
